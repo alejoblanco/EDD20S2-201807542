@@ -41,7 +41,7 @@ lista::~lista() {
    actual = NULL;
 }
 
-//metodo Clonar
+// metodo Clonar
 void lista::Clonar(pnodo nodoraiz){
     pnodo aux = nodoraiz; // constante = 1
     while(aux->siguiente!=NULL){ // ciclo while = log(n)
